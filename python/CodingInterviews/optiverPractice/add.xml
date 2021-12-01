@@ -1,0 +1,14 @@
+<metadata>
+    <food>
+        <item name="breakfast">Idly</item>
+        <price>$2.5</price>
+        <description>Two idlys with chutney</description>
+        <calories>553</calories>
+        <specialty>South Indian Special</specialty></food>
+    <food>
+        <item name="dinner">Meatloaf</item>
+        <price>$5.5</price>
+        <description>Meatloaf</description>
+        <calories>887</calories>
+    </food>
+</metadata>

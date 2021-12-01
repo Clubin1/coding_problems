@@ -1,0 +1,14 @@
+<metadata>
+    <food>
+        <item name="breakfast">Idly</item>
+        <price>$2.5</price>
+        <description updated="yes">Two idlys with chutney New Description</description>
+        <calories>553</calories>
+    </food>
+    <food>
+        <item name="dinner">Meatloaf</item>
+        <price>$5.5</price>
+        <description updated="yes">Meatloaf New Description</description>
+        <calories>887</calories>
+    </food>
+</metadata>

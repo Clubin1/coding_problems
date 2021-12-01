@@ -18,12 +18,13 @@ class Solution(object):
         """
         list = {}
         
-        for i in range(len(nums)): 
-            currentNum = nums[i]
-            difference = target - currentNum
-            
-            if difference in list and list[difference] != i:
-                return [list[difference], i]
+        for i in range(len(nums)):
+            currNum = nums[i]
+            difference = target - currNum
+
+            if difference in list and currNum != i:
+                return[list[difference], i]
+
             else:
-                list[currentNum] = i
+                list[currNum] = i
     print(twoSum(object,[2,1,9,4,4,56,90,3], 8))

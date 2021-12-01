@@ -1,0 +1,20 @@
+<TradingApplication>
+    <Name>trading_app_1</Name>
+    <LogPath>/mnt/logs</LogPath>
+    <TradingStrategies>
+        <TradingStrategy enabled="true">
+            <Symbols>
+                <Symbol>SPY</Symbol>
+            </Symbols>
+            <Multiplier>5000</Multiplier>
+        </TradingStrategy>
+    <TradingStrategy enabled="true">
+            <Symbols>
+                <Symbol>SPX</Symbol>
+                <Symbol>RUT</Symbol>
+            </Symbols>
+            <Multiplier>400</Multiplier>
+            
+        </TradingStrategy>
+    </TradingStrategies>
+</TradingApplication>
